@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -42,7 +43,7 @@
 
     <main class="box">
         <div class="box__row">
-        <article class="article">
+        <article class="article--first">
             <h2 class="article__title">Declarative</h2>
             <div class="article__content">
                 <p>React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes.</p>
@@ -60,7 +61,7 @@
             <h2 class="article__title">Learn Once, Write Anywhere</h2>
             <div class="article__content">
                 <p>We don’t make assumptions about the rest of your technology stack, so you can develop new features in React without rewriting existing code.</p>
-                <p>React can also render on the server using Node and power mobile apps using <a class="article__react" href="https://reactnative.dev/" target="_blank">React Native<a/>.</p>
+                <p>React can also render on the server using Node and power mobile apps using <a class="article__react" href="https://reactnative.dev/" target="_blank">React Native</a>.</p>
             </div>
         </article>
         </div>
@@ -96,15 +97,12 @@
     </div>
 
     <footer class="footer">
-        <div class="footer__column">
-            <svg></svg>
-            <span>
-                <img class="footer__logo" src="" alt="">
+        <div class="footer__row">
+            <div class="footer__box">
+                <!--<img class="footer__logo" src="" alt="">-->
                 <div class="footer__name">Facebook Open Source</div>
-            </span>
-            <div class="footer__copyright">Copyright &copy; 2021 Facebook Inc.</div>
-        </div>
-        <div class="footer__column">
+                <div class="footer__copyright">Copyright &copy; 2021 Facebook Inc.</div>
+            </div>
             <div class="footer__box">
                 <span class="footer__item--title">DOCS</span>
                 <a class="footer__item">Installation</a>
@@ -123,7 +121,9 @@
                 <a class="footer__item">Community Resources</a>
             </div>
         </div>
-        <div>
+        
+        <div class="footer__row">
+            <div class="footer__box"></div>
             <div class="footer__box">
                 <span class="footer__item--title">CHANNELS</span>
                 <a class="footer__item">GitHub</a>

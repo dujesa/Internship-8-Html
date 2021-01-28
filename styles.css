@@ -178,5 +178,19 @@ code {
 }
 
 .footer {
-    background-color: #20232a
+    background-color: #20232a;
+    color: #ffffff;
+    padding: 40px 20%;
+}
+
+.footer__row {
+    display: inline-flex;
+    width: 100%;
+}
+
+.footer__box {
+    width: 32%;
+    height: 320px;
+    margin: 1px;
+    background-color: blue;
 }
