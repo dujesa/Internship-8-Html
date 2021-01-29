@@ -85,8 +85,8 @@ code {
 }
 
 .header__languages {
-    display: inline-flex;
-    align-items: baseline;
+  display: inline-flex;
+  align-items: baseline;
 }
 
 .banner {
@@ -164,15 +164,16 @@ code {
 
 .react__background-illustration {
   position: absolute;
-  top: 10%;
-  right: 10%;
+  top: 90px;
+  right: 275px;
   z-index: 1;
-  width: 40%;
+  width: 35%;
   opacity: 5%;
 }
 
 .box {
   background-color: #ffffff;
+  position: relative;
   z-index: 5;
 }
 
@@ -258,6 +259,8 @@ code {
   line-height: 2;
   float: left;
   clear: left;
+  text-decoration: none;
+  color: #fff;
 }
 
 .footer__item:hover {
