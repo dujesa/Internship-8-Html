@@ -192,5 +192,31 @@ code {
     width: 32%;
     height: 320px;
     margin: 1px;
-    background-color: blue;
+    margin-bottom: 40px;
+    padding-left: 3%;
+}
+
+.footer__copyright {
+    color: #999;
+    padding-top: 15px;
+}
+
+.footer__item {
+    line-height: 2;
+    float: left;
+    clear: left;
+}
+
+.footer__item:hover {
+    color: #61dafb;
+    cursor: pointer;
+}
+
+.footer__item--title {
+    text-transform: uppercase;
+    color: #999;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 3;
+    letter-spacing: 0.05em;
 }
